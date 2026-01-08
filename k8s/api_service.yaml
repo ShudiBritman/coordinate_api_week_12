@@ -7,8 +7,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    matchLabels:
-      app: coordinate-api
+    app: coordinate-api
   ports:
   - port: 8000
     targetPort: 8000
