@@ -9,4 +9,4 @@ spec:
   - port: 5432
   clusterIP: None
   selector:
-    pp: postgres
+    app: postgres
