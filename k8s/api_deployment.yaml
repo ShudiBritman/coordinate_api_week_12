@@ -19,7 +19,7 @@ spec:
         - containerPort: 8000
         env:
         - name: POSTGRES_HOST
-          value: "postgres-0.postgres-svc"
+          value: "postgres-svc"
         - name: POSTGRES_PORT
           value: "5432"
         - name: POSTGRES_DB
